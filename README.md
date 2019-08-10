@@ -8,16 +8,6 @@ The project proposed three eye movement metrics and classification for digital l
 # Project Structure
 * calculator - code and output pitures with fixation data 
   + calculator.py - read every single file and output slide info
-  + Fixpic - all slides with fixation data
-    + A - button mask
-    + B - outlier removal
-    + AandB - both filter
-    + nofilter - original data
-  + Outpic - all slides with fixation data mean fixation point
-    + red - mean fixation point of original data
-    + orange - duration weighted mean fixation point of original data
-    + blue - mean fixation point of filtered data
-    + deep blue - duration weighted mean fixation point of filtered data
 * Pic - all slides pictures
 * data - all data here
   + pagecut - calcultaed page switching timing
@@ -27,6 +17,10 @@ The project proposed three eye movement metrics and classification for digital l
     + Class table - class info
     + Regression - regression analysis
   + ResultPages - calculated slide info
+    + A - button mask
+    + B - outlier removal
+    + AandB - both filter
+    + nofilter - original data
 * Outpic - all slides with fixation data mean fixation point
   + red - mean fixation point of original data
   + orange - duration weighted mean fixation point of original data
